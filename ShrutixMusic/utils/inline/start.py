@@ -12,8 +12,8 @@ def start_panel(_):
                 url=f"https://t.me/{nand.username}?startgroup=true",
             ),
             InlineKeyboardButton(
-                text=_["S_B_2"],
-                url=config.SUPPORT_CHAT,
+                text=_["L_N_G"],
+                callback_data="LG"
             ),
         ],
     ]
